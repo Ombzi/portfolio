@@ -18,7 +18,7 @@ Hello, I am Robert Barragan, a Computer Science student at Heritage University. 
 I have experience working in agricultural work, where I picked cherries, and as a WSU AgWeatherNet intern, where I maintained weather stations and developed a heatmap web page using PHP and HTML. Currently, I am working as a Heritage University CAMP intern, providing students with services that will help them achieve educational success. In terms of my education, I have completed various courses as part of my Computer Science degree program at Heritage University, such as Math 212 Calculus, CPSC 230 Database I, CPSC 330 Database II, CPSC 150 Digital Logic, CPSC 207 Intro to C++, CPSC 231 Discrete Mathematics, CPSC 202 Java I, CPSC 303 Python, and CPSC 344 Database Management. Additionally, I have a high school diploma with a GPA of 3.571, where I was part of the National Honor Society and Concert Varsity Band. 
 
 ## will be contained in a DIV.
-## Have a transition effect for each project that transitions each 5 seconds and arrows to go back and forth.
+## Have a transition effect for each project that transitions every 5 seconds and arrows to go back and forth.
 
 ## Project
 
