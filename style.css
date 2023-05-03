@@ -1,0 +1,215 @@
+        /* Reset default margin and padding values */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Apply box-sizing: border-box to all elements for consistent sizing */
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        /* Set default font family and size */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #f2f2f2;
+        }
+
+        /* Style the header section */
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        header ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            margin: 10px 0;
+        }
+
+        header ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        header ul li a:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        /* Style the about me section */
+        #about-me {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        #about-me img {
+            float: left;
+            margin-right: 20px;
+            max-width: 150px;
+            border-radius: 5px;
+        }
+
+        #about-me h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        #about-me p {
+            margin-bottom: 20px;
+        }
+
+        /* Style the experience section */
+        #experience {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        #experience h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .experience-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Style the projects section */
+        #projects {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #projects h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            border-radius: 5px;
+            max-width: 400px;
+            height: auto;
+        }
+
+        .project h2 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            margin-bottom: 20px;
+        }
+
+        .project button {
+            background-color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .project button:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
+
+        /* Style the contact section */
+        #contact {
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        form textarea {
+            height: 150px;
+        }
+
+        form button[type="submit"] {
+            background-color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+
+        form button[type="submit"]:hover {
+            background-color: #ffffff;
+            color: #1a1a1a;
+        }
