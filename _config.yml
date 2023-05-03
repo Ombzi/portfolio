@@ -1,5 +1,0 @@
-title: Ombzi's Portfolio
-markdown: kramdown
-remote_theme: pages-themes/theme-name
-plugins:
-- jekyll-remote-theme 
